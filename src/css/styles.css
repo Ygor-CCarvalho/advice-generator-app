@@ -1,0 +1,70 @@
+html{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width:100vw;
+    min-height: 100vh;
+    background-color: var(--cor-background-main) ;
+    color: hsl(193, 38%, 86%);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 550px;
+    padding: 45px;
+    border-radius: 20px;
+    background-color: var(--cor-background-conselho);
+
+}
+.container p{
+    font-size: 28px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.container h1{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--cor-id-conselho);
+}
+
+.container .divisoria{
+    margin-bottom: 20px;
+}
+
+.container .botao-gerar-conselho {
+    display: flex;
+    position: absolute;
+    background-color: var(--cor-id-conselho);
+    padding: 20px;
+    border-radius: 100px;
+    bottom: -13%;
+    cursor: pointer;
+
+}
+
+.container .botao-gerar-conselho:hover{
+    box-shadow: 1px 1px 20px 4px var(--cor-id-conselho);
+}
+
+.attribution { 
+    position:absolute;
+    bottom:0; 
+    margin: 20px;
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }

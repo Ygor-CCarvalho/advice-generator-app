@@ -1,9 +1,9 @@
-@media(min-width: 768px){
-    .advice{
+@media(max-width: 768px){
+    .container{
         padding-inline: 50px;
-        width: 386px;
+        width: 500px;
     }
-    .advice p{
+    .container p{
         font-size: 21px;
         padding: 26px;
     }

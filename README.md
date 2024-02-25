@@ -13,6 +13,10 @@ O **Advice Generator** é um projeto simples que utiliza a API Advice Generator.
 - Geração de conselhos aleatórios.
 - Exibição do código ID correspondente ao conselho.
 
+## Responsividade
+
+- A interface se adapta automaticamente para garantir uma visualização adequada em dispositivos móveis, tablets e desktops.
+
 ## Tecnologias Utilizadas
 
 - HTML
